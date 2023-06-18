@@ -45,11 +45,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         element?.testClosure = {
             print(element?.name ?? "")
         }
-//
-//        if let closure = element?.testClosure {
-//            closure()
-//        }
-//
+
         element = nil
         
 //        var heading:HTMLElement! = HTMLElement(name: "h1")
